@@ -37,4 +37,6 @@ git bash 입력을 모두 지울때는 clear
 ### 과거 상태로 복원
 + git log --graph 복원하고싶은 지점을 확인 (F2를 누르면 입력창으로 빠져나옴)
 + git reset --hard 복원하고싶은해시값
-+ 충돌이 나야함 머지할때
+***
+git commit --amend 직전 커밋메시지 변경할때   
+
