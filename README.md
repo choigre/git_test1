@@ -29,5 +29,10 @@ git bash 입력을 모두 지울때는 clear
 * git branch 현재 어떤 브랜치를 사용하는지 확인
 * git checkout master(or 브랜치명) 현재 브랜치를 master(or 브랜치명)으로 이동
 * git checkout -b 브랜치명 브랜치명을 새로 만들어서 그곳으로 이동
-
+    * 새로운 브랜치명을 만들고 파일 변경후 push 를 하면 안올라감
+    * 반드시 새로운 브랜치명을 master에 merge한 이후에 push해야 원격에 반영됨
+    * merge 명령어를 입력하면 commit 입력 편집창이 열리고 커밋메시지 입력후 편집창을 닫으면 자동으로 커밋이 됨
+    * git checkout master (master로 이동후에 merge를 수행해야함)
+    * git merge --no-ff 새로운브랜치명
+    
 
