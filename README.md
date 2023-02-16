@@ -2,7 +2,7 @@
 *** 
 처음에 임시폴더에서 마우스 우클릭을 하여 git Bash를 실행한다   
 git init => repository 초기화   
-git add . => 스테이징 영역(commit 전 임시영역)   
+git add . => 스테이지 영역 (commit 전 임시영역)   
 git status => repository 상태확인   
 ***   
 원격 repository 새로운 저장소를 만들고   
