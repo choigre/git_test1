@@ -39,4 +39,6 @@ git bash 입력을 모두 지울때는 clear
 + git reset --hard 복원하고싶은해시값
 ***
 git commit --amend 직전 커밋메시지 변경할때   
+git rebase -i HEAD~2 최신 커밋(HEAD)을 포함한 2개의 변경내역 에디터 표시
+- fixup 커밋 로그를 삭제
 
