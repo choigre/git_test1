@@ -19,10 +19,15 @@ git diff HEAD (최신 커밋과의 차이 확인)
 원격 repository 새로운 저장소를 만들고   
 로컬 repository의 파일을 원격으로 보내려면   
 git remote add origin 원격git주소 (origin이라는 식별자가 원격git주소를 가리킴)   
-git push -u origin master (-u 지정시 로컬 repository의 현재 브랜치의 상태값이 원격 repository의 master 브랜치로 설정)   
+git push -u origin master (-u 지정시 로컬 repository의 현재 브랜치의 상태값이 원격 repository의 master 브랜치로 설정)  
+원격 repository에서 로컬로 가져올때는   
+git clone 원격git주소   
 ***
 git bash 입력을 모두 지울때는 clear   
 ***
 ## 브랜치 생성
+* git branch 현재 어떤 브랜치를 사용하는지 확인
+* git checkout master(or 브랜치명) 현재 브랜치를 master(or 브랜치명)으로 이동
+* git checkout -b 브랜치명 브랜치명을 새로 만들어서 그곳으로 이동
 
 
